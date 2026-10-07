@@ -1,0 +1,89 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 6 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1250 >>
+stream
+BT
+/F1 24 Tf
+50 780 Td
+(ALEX MORGAN) Tj
+/F2 12 Tf
+0 -22 Td
+(Full-Stack Developer | Software Engineer) Tj
+/F2 10 Tf
+0 -18 Td
+(Phone: +1 (555) 123-4567  |  Email: contact@alexmorgan.dev  |  Location: San Francisco, CA) Tj
+0 -25 Td
+/F1 14 Tf
+(PROFESSIONAL SUMMARY) Tj
+0 -15 Td
+/F2 10 Tf
+(Results-oriented Full-Stack Developer with 4+ years of experience designing, building,) Tj
+0 -14 Td
+(and deploying modern, scalable web applications and intuitive user interfaces.) Tj
+0 -25 Td
+/F1 14 Tf
+(TECHNICAL SKILLS) Tj
+0 -15 Td
+/F2 10 Tf
+(Frontend: JavaScript, TypeScript, React, HTML5, CSS3, Tailwind CSS, Next.js) Tj
+0 -14 Td
+(Backend: Node.js, Python, Express, REST APIs, GraphQL, PostgreSQL, MongoDB) Tj
+0 -14 Td
+(Tools & DevOps: Git, GitHub, Docker, AWS, CI/CD, Jest, Figma) Tj
+0 -25 Td
+/F1 14 Tf
+(EXPERIENCE) Tj
+0 -15 Td
+/F1 11 Tf
+(Senior Web Developer - Tech Innovations Inc. [2022 - Present]) Tj
+0 -14 Td
+/F2 10 Tf
+(- Architected and delivered high-performance client web applications serving 200k+ users.) Tj
+0 -14 Td
+(- Reduced bundle size by 35% and improved Core Web Vitals to achieve 98+ Lighthouse scores.) Tj
+0 -20 Td
+/F1 11 Tf
+(Full-Stack Developer - Digital Solutions Studio [2020 - 2022]) Tj
+0 -14 Td
+/F2 10 Tf
+(- Developed scalable RESTful APIs and modern frontend interfaces across 15+ projects.) Tj
+0 -25 Td
+/F1 14 Tf
+(KEY ACHIEVEMENTS & CERTIFICATIONS) Tj
+0 -15 Td
+/F2 10 Tf
+(- Winner, Global Web Dev Hackathon 2023 - 1st Place out of 250+ teams.) Tj
+0 -14 Td
+(- AWS Certified Solutions Architect | Meta Certified Frontend Professional.) Tj
+ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000244 00000 n 
+0000000388 00000 n 
+0000000318 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1700
+%%EOF

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0b0f19" />
+    </linearGradient>
+    <linearGradient id="ring-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="hoodie-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="skin-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8d7b8" />
+      <stop offset="100%" stop-color="#e8be99" />
+    </linearGradient>
+    <linearGradient id="hair-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Base Circle -->
+  <circle cx="200" cy="200" r="190" fill="url(#bg-grad)" stroke="url(#ring-grad)" stroke-width="4" />
+
+  <!-- Code Bracket Symbols in Background -->
+  <text x="50" y="105" font-family="'JetBrains Mono', monospace" font-size="26" font-weight="bold" fill="#38bdf8" opacity="0.45">&lt;dev&gt;</text>
+  <text x="290" y="105" font-family="'JetBrains Mono', monospace" font-size="26" font-weight="bold" fill="#818cf8" opacity="0.45">{AI}</text>
+  <text x="45" y="270" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="bold" fill="#c084fc" opacity="0.4">C++</text>
+  <text x="315" y="270" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="bold" fill="#38bdf8" opacity="0.4">Py</text>
+
+  <!-- Avatar Clip to keep inside circle -->
+  <g clip-path="url(#avatar-clip)">
+    <clipPath id="avatar-clip">
+      <circle cx="200" cy="200" r="184" />
+    </clipPath>
+
+    <!-- Shoulders & Upper Body / Tech Hoodie -->
+    <path d="M 80 400 C 90 320, 130 280, 200 280 C 270 280, 310 320, 320 400 Z" fill="url(#hoodie-grad)" stroke="#334155" stroke-width="2" />
+    <!-- Hoodie Inner Collar / Zipper -->
+    <path d="M 175 282 L 200 330 L 225 282" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
+    <line x1="200" y1="330" x2="200" y2="400" stroke="#475569" stroke-width="2" stroke-dasharray="3,3" />
+
+    <!-- Neck -->
+    <rect x="180" y="230" width="40" height="60" rx="8" fill="url(#skin-grad)" />
+    <!-- Shadow under chin -->
+    <path d="M 180 240 Q 200 255 220 240 L 220 252 Q 200 265 180 252 Z" fill="#d4a373" opacity="0.6" />
+
+    <!-- Head / Face -->
+    <rect x="145" y="125" width="110" height="125" rx="50" fill="url(#skin-grad)" />
+
+    <!-- Hair -->
+    <path d="M 140 145 C 135 110, 155 80, 200 80 C 245 80, 265 110, 260 145 C 255 120, 235 105, 200 105 C 165 105, 145 120, 140 145 Z" fill="url(#hair-grad)" />
+    <path d="M 140 140 C 136 125, 148 100, 175 95 C 185 85, 215 82, 235 90 C 255 100, 262 115, 260 135 C 250 120, 240 115, 220 115 C 190 115, 170 125, 140 140 Z" fill="#334155" opacity="0.7" />
+
+    <!-- Ears -->
+    <ellipse cx="143" cy="185" rx="9" ry="14" fill="#e8be99" />
+    <ellipse cx="257" cy="185" rx="9" ry="14" fill="#e8be99" />
+
+    <!-- Eyebrows -->
+    <path d="M 160 162 Q 175 158 185 163" fill="none" stroke="#1e293b" stroke-width="3" stroke-linecap="round" />
+    <path d="M 215 163 Q 225 158 240 162" fill="none" stroke="#1e293b" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Eyes -->
+    <circle cx="173" cy="176" r="4.5" fill="#0f172a" />
+    <circle cx="227" cy="176" r="4.5" fill="#0f172a" />
+    <circle cx="175" cy="174" r="1.5" fill="#ffffff" />
+    <circle cx="229" cy="174" r="1.5" fill="#ffffff" />
+
+    <!-- Modern Tech Glasses -->
+    <rect x="156" y="165" width="34" height="22" rx="6" fill="rgba(56, 189, 248, 0.15)" stroke="#38bdf8" stroke-width="2.5" />
+    <rect x="210" y="165" width="34" height="22" rx="6" fill="rgba(56, 189, 248, 0.15)" stroke="#38bdf8" stroke-width="2.5" />
+    <line x1="190" y1="174" x2="210" y2="174" stroke="#38bdf8" stroke-width="2.5" />
+    <line x1="145" y1="172" x2="156" y2="172" stroke="#38bdf8" stroke-width="2" />
+    <line x1="244" y1="172" x2="255" y2="172" stroke="#38bdf8" stroke-width="2" />
+
+    <!-- Nose -->
+    <path d="M 200 178 L 197 194 L 204 194" fill="none" stroke="#d4a373" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Friendly Smile -->
+    <path d="M 188 212 Q 200 222 212 212" fill="none" stroke="#9a3412" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- Sleek Over-Ear Headphones around neck -->
+    <path d="M 140 240 C 135 270, 160 280, 200 280 C 240 280, 265 270, 260 240" fill="none" stroke="#475569" stroke-width="10" stroke-linecap="round" />
+    <rect x="130" y="235" width="22" height="30" rx="8" fill="#38bdf8" stroke="#0284c7" stroke-width="2" />
+    <rect x="248" y="235" width="22" height="30" rx="8" fill="#38bdf8" stroke="#0284c7" stroke-width="2" />
+  </g>
+
+  <!-- Glowing Outer Accent Ring -->
+  <circle cx="200" cy="200" r="190" fill="none" stroke="url(#ring-grad)" stroke-width="3" filter="url(#glow)" opacity="0.7" />
+
+  <!-- Modern Tech Status Dot (Active Student Indicator) -->
+  <circle cx="330" cy="290" r="16" fill="#0f172a" stroke="#1e293b" stroke-width="2" />
+  <circle cx="330" cy="290" r="10" fill="#10b981" />
+  <circle cx="330" cy="290" r="4" fill="#ffffff" />
+</svg>
