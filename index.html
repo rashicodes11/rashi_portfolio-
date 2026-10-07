@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Rashi Sharma - B.Tech CSE First Year Student at JECRC University, Jaipur. Proficient in C and Java programming, OOP, and problem solving." />
+  <meta name="keywords" content="Rashi Sharma, Portfolio, BTech CSE, JECRC University, C Programming, Java, Software Developer, Jaipur" />
+  <meta name="author" content="Rashi Sharma" />
+  <title>Rashi Sharma | B.Tech CSE Portfolio | JECRC University</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVBAR ==================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <a href="#home" class="logo" aria-label="Rashi Sharma Portfolio Home">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-name">Rashi.dev</span>
+        <span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <!-- Mobile Resume Button in Menu -->
+        <a href="assets/Rashi_Sharma_Resume.pdf" download="Rashi_Sharma_Resume.pdf" class="btn btn-primary btn-sm mobile-resume-btn" title="Download Rashi Sharma's Resume in PDF">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Download Resume
+        </a>
+      </nav>
+
+      <!-- Header Action Controls -->
+      <div class="header-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle dark and light mode" title="Toggle Theme">
+          <svg id="theme-icon-sun" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg id="theme-icon-moon" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Download Resume Button (Navbar Desktop) -->
+        <a href="assets/Rashi_Sharma_Resume.pdf" download="Rashi_Sharma_Resume.pdf" class="btn btn-outline btn-sm desktop-resume-btn" title="Download Rashi Sharma's Resume in PDF format">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Download Resume</span>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button id="mobile-toggle" class="btn-icon mobile-only" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== HOME / HERO SECTION ==================== -->
+    <section class="section hero-section" id="home">
+      <div class="hero-bg-glow glow-1"></div>
+      <div class="hero-bg-glow glow-2"></div>
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="status-indicator"></span>
+            <span>B.Tech CSE (1st Year) • JECRC University, Jaipur</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Rashi Sharma</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            B.Tech CSE Student &amp; Aspiring Software Developer
+          </p>
+
+          <p class="hero-description">
+            First-year Computer Science &amp; Engineering undergraduate at <strong>JECRC University, Jaipur</strong>. Proficient in <strong>C</strong> and <strong>Java</strong> programming languages, with strong foundations in Object-Oriented Programming (OOP) and algorithmic problem solving. Passionate about building clean, efficient code and learning emerging technologies.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-actions">
+            <!-- Download Resume CTA -->
+            <a href="assets/Rashi_Sharma_Resume.pdf" download="Rashi_Sharma_Resume.pdf" class="btn btn-primary btn-lg" id="hero-download-resume" title="Download Rashi Sharma's CV / Resume">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Resume</span>
+            </a>
+
+            <!-- Get In Touch CTA -->
+            <a href="#contact" class="btn btn-outline btn-lg">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>Get In Touch</span>
+            </a>
+          </div>
+
+          <!-- Quick Contact Bar (Email & University) -->
+          <div class="hero-quick-contacts">
+            <a href="mailto:rashisharma8077@gmail.com" class="quick-contact-item" title="Send email to Rashi Sharma">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+              <span>rashisharma8077@gmail.com</span>
+            </a>
+
+            <span class="divider-dot">•</span>
+
+            <span class="quick-contact-item" title="University Campus">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Jaipur, Rajasthan, India</span>
+            </span>
+          </div>
+        </div>
+
+        <!-- Hero Visual / Floating Code Card -->
+        <div class="hero-visual">
+          <div class="glass-card hero-code-card">
+            <div class="card-header-bar">
+              <div class="window-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span class="card-filename">RashiProfile.java</span>
+            </div>
+            <pre class="code-preview"><code><span class="code-keyword">public class</span> <span class="code-entity">RashiSharma</span> {
+  <span class="code-keyword">String</span> <span class="code-prop">name</span>       = <span class="code-string">"Rashi Sharma"</span>;
+  <span class="code-keyword">String</span> <span class="code-prop">college</span>    = <span class="code-string">"JECRC University, Jaipur"</span>;
+  <span class="code-keyword">String</span> <span class="code-prop">degree</span>     = <span class="code-string">"B.Tech CSE (1st Year)"</span>;
+  <span class="code-keyword">String</span> <span class="code-prop">email</span>      = <span class="code-string">"rashisharma8077@gmail.com"</span>;
+  
+  <span class="code-keyword">String</span>[] <span class="code-prop">skills</span>   = {
+    <span class="code-string">"C Language"</span>,
+    <span class="code-string">"Java (OOPs)"</span>,
+    <span class="code-string">"Data Structures"</span>,
+    <span class="code-string">"Problem Solving"</span>
+  };
+
+  <span class="code-keyword">boolean</span> <span class="code-function">openToInternships</span> = <span class="code-keyword">true</span>;
+}</code></pre>
+            
+            <div class="card-badge-row">
+              <span class="tech-pill">Java</span>
+              <span class="tech-pill">C Programming</span>
+              <span class="tech-pill">OOPs</span>
+              <span class="tech-pill">Logic Building</span>
+              <span class="tech-pill">DSA Basics</span>
+              <span class="tech-pill">JECRC</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Driven by Logic, Fueled by Code</h2>
+          <p class="section-description">A quick look into my academic background, technical journey, and ambitions as a Computer Science student.</p>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Left Column: Story -->
+          <div class="about-story glass-card">
+            <h3>Hello &amp; Welcome! 👋</h3>
+            <p>
+              I am <strong>Rashi Sharma</strong>, a dedicated first-year undergraduate pursuing a <strong>B.Tech in Computer Science and Engineering</strong> at <strong>JECRC University in Jaipur, Rajasthan</strong>. I am enthusiastic about the foundations of computing, software development, and solving analytical problems.
+            </p>
+            <p>
+              My coding journey started with the <strong>C programming language</strong>, where I developed a keen understanding of procedural architecture, pointers, dynamic memory allocation, and data representation at the machine level. Building on this solid base, I expanded my expertise into <strong>Java</strong>, embracing <strong>Object-Oriented Programming (OOP)</strong> paradigms such as inheritance, polymorphism, encapsulation, and abstraction.
+            </p>
+            <p>
+              As a freshman, I prioritize writing clean, structured code, breaking down algorithmic puzzles, and exploring data structures. I am enthusiastic about contributing to real-world projects, participating in college hackathons, and constantly broadening my technological horizons.
+            </p>
+
+            <div class="about-highlights-row">
+              <div class="highlight-box">
+                <span class="highlight-label">Degree</span>
+                <span class="highlight-val">B.Tech in CSE (1st Year)</span>
+              </div>
+              <div class="highlight-box">
+                <span class="highlight-label">University</span>
+                <span class="highlight-val">JECRC University, Jaipur</span>
+              </div>
+              <div class="highlight-box">
+                <span class="highlight-label">Core Languages</span>
+                <span class="highlight-val">C &amp; Java (OOPs)</span>
+              </div>
+            </div>
+
+            <div class="about-cta-bar">
+              <a href="assets/Rashi_Sharma_Resume.pdf" download="Rashi_Sharma_Resume.pdf" class="btn btn-primary btn-sm" title="Download Rashi Sharma's Resume">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                Download Complete CV (.PDF)
+              </a>
+              <a href="#contact" class="btn btn-secondary btn-sm">Contact Details</a>
+            </div>
+          </div>
+
+          <!-- Right Column: Metrics / Stat Cards -->
+          <div class="about-stats">
+            <div class="stat-card glass-card">
+              <div class="stat-icon-wrap">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div class="stat-number">1st Year</div>
+              <div class="stat-label">B.Tech CSE Undergraduate</div>
+              <div class="stat-subtext">JECRC University, Jaipur (2024 - 2028)</div>
+            </div>
+
+            <div class="stat-card glass-card">
+              <div class="stat-icon-wrap">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div class="stat-number">2 Core</div>
+              <div class="stat-label">Programming Languages</div>
+              <div class="stat-subtext">Solid practical grip on C &amp; Java</div>
+            </div>
+
+            <div class="stat-card glass-card">
+              <div class="stat-icon-wrap">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <div class="stat-number">100+</div>
+              <div class="stat-label">Coding Exercises Solved</div>
+              <div class="stat-subtext">Arrays, loops, logic, and OOP problems</div>
+            </div>
+
+            <div class="stat-card glass-card">
+              <div class="stat-icon-wrap">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 14 14"></polyline>
+                </svg>
+              </div>
+              <div class="stat-number">100%</div>
+              <div class="stat-label">Learning Dedication</div>
+              <div class="stat-subtext">Committed to engineering growth &amp; excellence</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Skills &amp; Expertise</span>
+          <h2 class="section-title">My Technical Arsenal</h2>
+          <p class="section-description">A curated breakdown of programming languages, computer science foundations, and tools I practice.</p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="skills-filter-container">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="languages">Programming Languages</button>
+          <button class="filter-btn" data-filter="core">Core CS Concepts</button>
+          <button class="filter-btn" data-filter="tools">Tools &amp; Web</button>
+          <button class="filter-btn" data-filter="soft">Soft Skills</button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid" id="skills-grid">
+          
+          <!-- Skill: C Language -->
+          <div class="skill-card glass-card" data-category="languages">
+            <div class="skill-icon-header">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <div class="skill-meta">
+                <h4 class="skill-title">C Programming Language</h4>
+                <span class="skill-category-badge">Core Language</span>
+              </div>
+              <span class="skill-percentage">90%</span>
+            </div>
+            <div class="skill-progress-track">
+              <div class="skill-progress-fill" style="width: 90%;"></div>
+            </div>
+            <p class="skill-description">Pointers, memory management, arrays, strings, structures, unions, modular functions, and standard C libraries.</p>
+          </div>
+
+          <!-- Skill: Java Language -->
+          <div class="skill-card glass-card" data-category="languages">
+            <div class="skill-icon-header">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+              </div>
+              <div class="skill-meta">
+                <h4 class="skill-title">Java Programming Language</h4>
+                <span class="skill-category-badge">Core Language</span>
+              </div>
+              <span class="skill-percentage">88%</span>
+            </div>
+            <div class="skill-progress-track">
+              <div class="skill-progress-fill" style="width: 88%;"></div>
+            </div>
+            <p class="skill-description">Core Java syntax, Classes &amp; Objects, Exception Handling, Interfaces, Packages, and foundational Java Collections.</p>
+          </div>
+
+          <!-- Skill: OOPs -->
+          <div class="skill-card glass-card" data-category="core">
+            <div class="skill-icon-header">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+              </div>
+              <div class="skill-meta">
+                <h4 class="skill-title">Object-Oriented Programming (OOP)</h4>
+                <span class="skill-category-badge">Computer Science</span>
+              </div>
+              <span class="skill-percentage">86%</span>
+            </div>
+            <div class="skill-progress-track">
+              <div class="skill-progress-fill" style="width: 86%;"></div>
+            </div>
+            <p class="skill-description">Four pillars of OOP: Encapsulation, Inheritance, Polymorphism, and Abstraction. Code reusability and modular design.</p>
+          </div>
+
+          <!-- Skill: Data Structures & Algorithms (Basics) -->
+          <div class="skill-card glass-card" data-category="core">
+            <div class="skill-icon-header">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><path d="M13 6h3a2 2 0 0 1 2 2v7"></path><line x1="6" y1="9" x2="6" y2="21"></line></svg>
+              </div>
+              <div class="skill-meta">
+                <h4 class="skill-title">Data Structures &amp; Algorithms (Basics)</h4>
+                <span class="skill-category-badge">Computer Science</span>
+              </div>
+              <span class="skill-percentage">82%</span>
+            </div>
+            <div class="skill-progress-track">
+              <div class="skill-progress-fill" style="width: 82%;"></div>
+            </div>
+            <p class="skill-description">Arrays, Multi-dimensional matrices, Strings, Linked Lists, Linear &amp; Binary Search, and Basic Sorting algorithms.</p>
+          </div>
+
+          <!-- Skill: Problem Solving & Logic -->
+          <div class="skill-card glass-card" data-category="core">
+            <div class="skill-icon-header">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+              </div>
+              <div class="skill-meta">
+                <h4 class="skill-title">Problem Solving &amp; Logic Building</h4>
+                <span class="skill-category-badge">Core Capability</span>
+              </div>
+              <span class="skill-percentage">90%</span>
+            </div>
+            <div class="skill-progress-track">
+              <div class="skill-progress-fill" style="width: 90%;"></div>
+            </div>
+            <p class="skill-description">Analytical breakdown of problems, dry-run debugging, pattern creation, mathematical computations, and flowcharts.</p>
+          </div>
+
+          <!-- Skill: Web Foundations -->
+          <div class="skill-card glass-card" data-category="tools">
+            <div class="skill-icon-header">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <div class="skill-meta">
+                <h4 class="skill-title">HTML5 &amp; Modern CSS3</h4>
+                <span class="skill-category-badge">Frontend Basics</span>
+              </div>
+              <span class="skill-percentage">80%</span>
+            </div>
+            <div class="skill-progress-track">
+              <div class="skill-progress-fill" style="width: 80%;"></div>
+            </div>
+            <p class="skill-description">Semantic markup, responsive UI layouts with Flexbox and CSS Grid, clean styling, and cross-device viewports.</p>
+          </div>
+
+          <!-- Skill: Dev Tools (Git/GitHub, VS Code) -->
+          <div class="skill-card glass-card" data-category="tools">
+            <div class="skill-icon-header">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+              </div>
+              <div class="skill-meta">
+                <h4 class="skill-title">Git, GitHub &amp; Developer Tools</h4>
+                <span class="skill-category-badge">Development Tools</span>
+              </div>
+              <span class="skill-percentage">84%</span>
+            </div>
+            <div class="skill-progress-track">
+              <div class="skill-progress-fill" style="width: 84%;"></div>
+            </div>
+            <p class="skill-description">Version control workflows with Git, GitHub repositories, VS Code, GCC Compiler, JDK environment, and terminal usage.</p>
+          </div>
+
+          <!-- Skill: Soft Skills -->
+          <div class="skill-card glass-card" data-category="soft">
+            <div class="skill-icon-header">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+              </div>
+              <div class="skill-meta">
+                <h4 class="skill-title">Communication &amp; Teamwork</h4>
+                <span class="skill-category-badge">Interpersonal</span>
+              </div>
+              <span class="skill-percentage">92%</span>
+            </div>
+            <div class="skill-progress-track">
+              <div class="skill-progress-fill" style="width: 92%;"></div>
+            </div>
+            <p class="skill-description">Clear technical communication, teamwork in college group assignments, fast learning agility, and peer collaboration.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== ACHIEVEMENTS SECTION ==================== -->
+    <section class="section achievements-section" id="achievements">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Milestones &amp; Honors</span>
+          <h2 class="section-title">Key Achievements</h2>
+          <p class="section-description">Academic accomplishments, programming milestones, and active engagements marking my journey in Computer Science.</p>
+        </div>
+
+        <div class="achievements-grid">
+          
+          <!-- Achievement 1 -->
+          <div class="achievement-card glass-card">
+            <div class="achievement-badge-header">
+              <div class="achievement-icon-box gold">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <span class="achievement-year">2024</span>
+            </div>
+            <span class="achievement-tag">University Admission</span>
+            <h3 class="achievement-title">B.Tech CSE at JECRC University</h3>
+            <p class="achievement-summary">
+              Secured admission into the prestigious B.Tech Computer Science &amp; Engineering program at JECRC University, Jaipur, backed by strong academic standing in Mathematics and Science.
+            </p>
+            <div class="achievement-footer">
+              <span class="achievement-org">JECRC University, Jaipur</span>
+            </div>
+          </div>
+
+          <!-- Achievement 2 -->
+          <div class="achievement-card glass-card">
+            <div class="achievement-badge-header">
+              <div class="achievement-icon-box blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <span class="achievement-year">2024 - 2025</span>
+            </div>
+            <span class="achievement-tag">Programming Milestone</span>
+            <h3 class="achievement-title">C &amp; Java Language Mastery</h3>
+            <p class="achievement-summary">
+              Successfully developed console applications and logic solvers in C and Java, demonstrating thorough understanding of memory structures, pointers, and Object-Oriented paradigms.
+            </p>
+            <div class="achievement-footer">
+              <span class="achievement-org">Academic &amp; Project Work</span>
+            </div>
+          </div>
+
+          <!-- Achievement 3 -->
+          <div class="achievement-card glass-card">
+            <div class="achievement-badge-header">
+              <div class="achievement-icon-box purple">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <span class="achievement-year">2024 - 2025</span>
+            </div>
+            <span class="achievement-tag">Coding Practice</span>
+            <h3 class="achievement-title">100+ Algorithmic Exercises Solved</h3>
+            <p class="achievement-summary">
+              Practiced and solved 100+ coding challenges covering arrays, strings, matrix manipulations, searching, and sorting algorithms across online platforms and lab coursework.
+            </p>
+            <div class="achievement-footer">
+              <span class="achievement-org">Self-Paced &amp; Platform Practice</span>
+            </div>
+          </div>
+
+          <!-- Achievement 4 -->
+          <div class="achievement-card glass-card">
+            <div class="achievement-badge-header">
+              <div class="achievement-icon-box cyan">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <span class="achievement-year">2024 - Present</span>
+            </div>
+            <span class="achievement-tag">Technical Community</span>
+            <h3 class="achievement-title">Active Member of Tech Societies</h3>
+            <p class="achievement-summary">
+              Regular participant in technical seminars, coding webinars, and student developer clubs at JECRC University, constantly expanding practical knowledge and peer networks.
+            </p>
+            <div class="achievement-footer">
+              <span class="achievement-org">JECRC University Clubs</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Section CTA to view full resume -->
+        <div class="achievements-cta text-center">
+          <p>Looking for a complete chronological history of my academic qualifications and coursework?</p>
+          <a href="assets/Rashi_Sharma_Resume.pdf" download="Rashi_Sharma_Resume.pdf" class="btn btn-primary btn-md" title="Download Rashi Sharma's Resume in PDF format">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Download Full Resume (PDF)
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT INFO & FORM SECTION ==================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's Connect &amp; Collaborate</h2>
+          <p class="section-description">Have an internship opening, coding project, academic inquiry, or just want to discuss tech? Reach out to me anytime.</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Details Cards (Email, University, Status, Resume) -->
+          <div class="contact-info-cards">
+            
+            <!-- EMAIL CARD (HIGHLIGHTED) -->
+            <div class="contact-card glass-card" id="email-card">
+              <div class="contact-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg>
+              </div>
+              <div class="contact-card-content">
+                <span class="contact-label">Email Address</span>
+                <a href="mailto:rashisharma8077@gmail.com" class="contact-value" id="email-address-value">rashisharma8077@gmail.com</a>
+                <span class="contact-hint">Direct email • Quick response</span>
+              </div>
+              <button class="btn-copy" id="copy-email-btn" title="Copy Email Address" aria-label="Copy Email Address to clipboard">
+                <svg class="icon copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg>
+                <span class="copy-text">Copy</span>
+              </button>
+            </div>
+
+            <!-- UNIVERSITY & LOCATION CARD -->
+            <div class="contact-card glass-card">
+              <div class="contact-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-card-content">
+                <span class="contact-label">University &amp; Location</span>
+                <span class="contact-value-static">JECRC University, Jaipur</span>
+                <span class="contact-hint">Jaipur, Rajasthan, India</span>
+              </div>
+            </div>
+
+            <!-- ACADEMIC & OPPORTUNITY STATUS CARD -->
+            <div class="contact-card glass-card">
+              <div class="contact-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div class="contact-card-content">
+                <span class="contact-label">Current Academic Status</span>
+                <span class="contact-value-static">B.Tech CSE (First Year)</span>
+                <span class="contact-hint">Open for Internships, Hackathons &amp; Projects</span>
+              </div>
+            </div>
+
+            <!-- RESUME DOWNLOAD BANNER CARD -->
+            <div class="contact-resume-card glass-card">
+              <div class="resume-card-text">
+                <h4>Download Complete Resume</h4>
+                <p>Get a standard ATS-formatted PDF version of my resume.</p>
+              </div>
+              <a href="assets/Rashi_Sharma_Resume.pdf" download="Rashi_Sharma_Resume.pdf" class="btn btn-primary btn-md" title="Download Rashi Sharma's Resume (PDF)">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span>Download Resume</span>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-container glass-card">
+            <h3 class="form-title">Send a Direct Message</h3>
+            <p class="form-subtitle">Fill out the form below and I will get back to you promptly.</p>
+            
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="form-name">Your Full Name <span class="required">*</span></label>
+                <input type="text" id="form-name" name="name" placeholder="e.g. John Doe" required />
+                <span class="error-msg" id="name-error">Please enter your name.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email">Your Email Address <span class="required">*</span></label>
+                <input type="email" id="form-email" name="email" placeholder="e.g. name@example.com" required />
+                <span class="error-msg" id="email-error">Please enter a valid email address.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject">Subject</label>
+                <input type="text" id="form-subject" name="subject" placeholder="Internship / Project / Academic Discussion" />
+              </div>
+
+              <div class="form-group">
+                <label for="form-message">Message <span class="required">*</span></label>
+                <textarea id="form-message" name="message" rows="4" placeholder="Hi Rashi, I came across your portfolio..." required></textarea>
+                <span class="error-msg" id="message-error">Please write a brief message.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span id="btn-text">Send Message</span>
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <span class="logo-bracket">&lt;</span>
+          <span class="logo-name">Rashi.dev</span>
+          <span class="logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer-tagline">B.Tech CSE Student at JECRC University, Jaipur. Passionate about C, Java &amp; building efficient software solutions.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contacts">
+        <h4>Direct Contact</h4>
+        <p><strong>Email:</strong> <a href="mailto:rashisharma8077@gmail.com">rashisharma8077@gmail.com</a></p>
+        <p><strong>Location:</strong> Jaipur, Rajasthan, India</p>
+        <p><strong>Campus:</strong> JECRC University</p>
+        <div class="footer-resume-btn-wrap">
+          <a href="assets/Rashi_Sharma_Resume.pdf" download="Rashi_Sharma_Resume.pdf" class="btn btn-outline btn-sm" title="Download Rashi Sharma's Resume in PDF">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Download Resume (PDF)
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p>&copy; <span id="current-year">2026</span> Rashi Sharma. All rights reserved.</p>
+        <p class="footer-subtext">B.Tech Computer Science &amp; Engineering • JECRC University, Jaipur</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <a href="#home" class="btn-back-to-top" id="back-to-top" aria-label="Scroll to top" title="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </a>
+
+  <!-- Toast Notification Alert for Feedback -->
+  <div id="toast" class="toast" role="alert" aria-live="polite">
+    <span class="toast-icon">✓</span>
+    <span id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
